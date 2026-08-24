@@ -1,5 +1,10 @@
 html {
-    background-color: #0000ff;
+    background-color: #001aff;
+}
+
+body {
+margin: 10;
+padding-top: 200px;
 }
 
 p {
@@ -17,4 +22,23 @@ color: #967fff;
 
 .gmantitle {
 color: rgb(84, 241, 181);
+}
+
+#home{
+    z-index: +10;
+    padding: 10px;
+    background-image: url(GreenBreen.png);
+    background-color: #0f630c;
+    height: 100px;
+    top: 0;
+    width: 90%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: center;
+    flex-direction: row;
+    position: fixed;
 }
