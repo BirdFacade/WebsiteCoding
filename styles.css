@@ -9,11 +9,6 @@ padding-top: 200px;
 
 p {
     color: greenyellow;
-    
-}
-
-.title1 {
-color: brown;
 }
 
 .title2 {
@@ -41,4 +36,24 @@ color: rgb(84, 241, 181);
     align-content: center;
     flex-direction: row;
     position: fixed;
+}
+
+@media screen and (orientation:portrait) {
+    #yesburger {
+        display: block;
+    }
+
+    #noburger {
+        display: none;
+    }
+}
+
+@media screen and (orientation:landscape) {
+     #yesburger {
+        display: none;
+    }
+
+    #noburger {
+        display: block;
+    }
 }
