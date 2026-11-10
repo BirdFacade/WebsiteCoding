@@ -19,6 +19,10 @@ color: #967fff;
 color: rgb(84, 241, 181);
 }
 
+.mySlides {
+    display: none;
+}
+
 #home{
     z-index: +10;
     padding: 10px;
