@@ -16,11 +16,11 @@
         
 
         <div id="noburger">
-            <button>
+            <button onclick="closeDropdown()">
                 burger1
             </button>
 
-            <button>
+            <button onclick="closeDropdown()">
                 burger2
             </button>
         </div>
@@ -96,6 +96,12 @@
     </style>
 
     <script>
+        function closeDropdown() {
+            document.getElementById("noburger").style.display = "none";
+        }
+    </script>
+
+    <script>
         function openDropdown() {
             document.getElementById("noburger").style.display = "block";
         }
@@ -137,7 +143,7 @@
         slides[slideIndex-1].style.display = "block";
         dots[slideIndex-1].className += " active";
         captionText.innerHTML = dots[slideIndex-1].alt;
-}
+        }
     </script>
 
 </body>
